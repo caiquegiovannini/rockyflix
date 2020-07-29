@@ -12,7 +12,7 @@ export const FooterBase = styled.footer`
   text-align: center;
 
   img {
-    width: 25%;
+    width: 330px;
   }
 
   ul {
@@ -33,5 +33,9 @@ export const FooterBase = styled.footer`
   }
   @media (max-width: 800px) {
     margin-bottom: 50px;
+
+    img {
+      width: 210px;
+    }
   }
 `;
