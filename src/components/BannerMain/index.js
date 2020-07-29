@@ -16,7 +16,8 @@ export default function BannerMain({
   url,
 }) {
   const youTubeID = getYouTubeId(url);
-  const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  // const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  const bgUrl = `https://jpimg.com.br/uploads/2019/07/rocky-balboa-stallone-1-1024x576.jpg`;
 
   return (
     <BannerMainContainer backgroundImage={bgUrl}>

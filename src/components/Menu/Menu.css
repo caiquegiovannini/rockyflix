@@ -1,5 +1,6 @@
 .Logo {
-  max-width: 168px;
+  max-width: 168px;  /* Logo2 */
+  /* max-width: 250px; */  /* Logo3 */
 }
 @media (max-width: 800px) {
   .Logo {
@@ -68,6 +69,7 @@ body {
     right: 0;
     bottom: 0;
     background: var(--primary);
+    color: var(--black);
     border-radius: 0;
     border: 0;
     text-align: center;

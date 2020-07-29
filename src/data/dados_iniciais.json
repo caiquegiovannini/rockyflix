@@ -1,183 +1,270 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Treinos",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Cenas dos treinos"
+      },
+      "videos": [
+        {
+          "titulo": "Rocky I - Training",
+          "url": "https://www.youtube.com/watch?v=DP3MFBzMH2o"
+        },
+        {
+          "titulo": "Rocky II - Rocky's Run (1979)",
+          "url": "https://www.youtube.com/watch?v=eMhDQFLwrAA"
+        },
+        {
+          "titulo": "Rocky 3 - Training Scene",
+          "url": "https://www.youtube.com/watch?v=lVY8SbQGW-Y"
+        },
+        {
+          "titulo": "Rocky 4 Training",
+          "url": "https://www.youtube.com/watch?v=CaagSfBj2To"
+        },
+        {
+          "titulo": "Rocky 5 Tommy Gunn Training",
+          "url": "https://www.youtube.com/watch?v=ovW3CaNdTDw"
+        },
+        {
+          "titulo": "Rocky VI 6 - TRAINING",
+          "url": "https://www.youtube.com/watch?v=_snO6S64pDg"
+        }
+      ]
+    },
+    {
+      "titulo": "Rocky I",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Rocky I Soundtrack",
+        "url": "https://www.youtube.com/watch?v=ioE_O7Lm0I4&list=PLDtH8ZVfo60FO1mIf2kAE1Qxi_1kOSrRO&index=1"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Bill Conti - Gonna Fly Now (Theme From Rocky)",
+          "url": "https://www.youtube.com/watch?v=ioE_O7Lm0I4"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Bill Conti - Philadelphia Morning",
+          "url": "https://www.youtube.com/watch?v=siOlyuB4ToQ"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Bill Conti - Going The Distance (Rocky)",
+          "url": "https://www.youtube.com/watch?v=GvQkl7qa6RQ"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Frank Stallone - Take You Back (Rocky)",
+          "url": "https://www.youtube.com/watch?v=FENE2XHzlpg"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Bill Conti - First Date (Rocky)",
+          "url": "https://www.youtube.com/watch?v=B9apYg0pskg"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Bill Conti - You Take My Heart Away (Rocky)",
+          "url": "https://www.youtube.com/watch?v=-jKTakowgho"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Bill Conti - Fanfare For Rocky (Rocky)",
+          "url": "https://www.youtube.com/watch?v=hKQioyQDowU"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Bill Conti - Butkus (Rocky)",
+          "url": "https://www.youtube.com/watch?v=-peHiiIt11k"
+        },  
+        {
+          "titulo": "Bill Conti - Alone In The Ring (Rocky)",
+          "url": "https://www.youtube.com/watch?v=6NJ5LW64DWM"
+        },
+        {
+          "titulo": "Bill Conti - The Final Bell (Rocky)",
+          "url": "https://www.youtube.com/watch?v=PvvDj2fnKoQ"
+        },
+        {
+          "titulo": "Bill Conti - Rocky's Reward (Rocky)",
+          "url": "https://www.youtube.com/watch?v=DLtZ5kwhU4k"
+        }    
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Rocky II",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Rocky II Soundtrack",
+        "url": "https://www.youtube.com/watch?v=6-8yN_HUU9Y&list=PLDtH8ZVfo60FO1mIf2kAE1Qxi_1kOSrRO&index=12"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Bill Conti - Redemption (Rocky II)",
+          "url": "https://www.youtube.com/watch?v=6-8yN_HUU9Y"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Bill Conti - Conquest (Rocky II)",
+          "url": "https://www.youtube.com/watch?v=A7iO_Y1TV6Q"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Bill Conti - All Of My Life (Instrumental)",
+          "url": "https://www.youtube.com/watch?v=7ATRTdN16js"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Bill Conti - Vigil (Rocky II)",
+          "url": "https://www.youtube.com/watch?v=C--7WX-9_Xk"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Rocky Orchestra - Gonna Fly Now",
+          "url": "https://www.youtube.com/watch?v=q2QeYHa3LIk"
+        },
+        {
+          "titulo": "Bill Conti - Overture (Rocky II)",
+          "url": "https://www.youtube.com/watch?v=TkUZwBlaabk"
+        },
+        {
+          "titulo": "Bill Conti - Two Kinds Of Love",
+          "url": "https://www.youtube.com/watch?v=zBKhjR1cw_Y"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Rocky III",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Rocky III Soundtrack",
+        "url": "https://www.youtube.com/watch?v=_JGx7PYpLWg&list=PLDtH8ZVfo60FO1mIf2kAE1Qxi_1kOSrRO&index=20"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Survivor - Eye Of The Tiger (Rocky III)",
+          "url": "https://www.youtube.com/watch?v=_JGx7PYpLWg"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Frank Stallone - Take You Back (Tough Gym) - (Rocky III)",
+          "url": "https://www.youtube.com/watch?v=OJ4IcSL340g"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Frank Stallone - Pushin' (Rocky III)",
+          "url": "https://www.youtube.com/watch?v=n-5aCEteSk4"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Bill Conti - Mickey (Rocky III)",
+          "url": "https://www.youtube.com/watch?v=_s1XK8r0Q_I"
+        },
+        {
+          "titulo": "Bill Conti - Reflections (Rocky III)",
+          "url": "https://www.youtube.com/watch?v=-icSgN7KTqs"
+        },
+        {
+          "titulo": "Rocky Orchestra - Gonna Fly Now - ROCKY III (1983)",
+          "url": "https://www.youtube.com/watch?v=--wH_Kq8tWM"
+        },
+        {
+          "titulo": "Bill Conti - Adrian (Rocky III)",
+          "url": "https://www.youtube.com/watch?v=CbBnc4NE8sM"
+        },
+        {
+          "titulo": "Bill Conti - Conquest - ROCKY III (1983)",
+          "url": "https://www.youtube.com/watch?v=kW_9cZUy3Ok"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Rocky IV",
       "cor": "orange",
+      "link_extra": {
+        "text": "Rocky IV Soundtrack",
+        "url": "https://www.youtube.com/watch?v=lYlkYkHkZxs&list=PLDtH8ZVfo60FO1mIf2kAE1Qxi_1kOSrRO&index=29"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Survivor - Burning Heart (Rocky IV)",
+          "url": "https://www.youtube.com/watch?v=lYlkYkHkZxs"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "John Cafferty - Hearts On Fire (Rocky IV)",
+          "url": "https://www.youtube.com/watch?v=swo51-CG9Ss"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Kenny Loggins, Gladys Knight - Double Or Nothing - ROCKY IV (1985)",
+          "url": "https://www.youtube.com/watch?v=W2hgP1TqgEk"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Survivor - Eye Of The Tiger (Rocky IV)",
+          "url": "https://www.youtube.com/watch?v=_fQb2TmRd2Q"
+        },
+        {
+          "titulo": "Vince DiCola - War (Rocky IV)",
+          "url": "https://www.youtube.com/watch?v=ingPbmcNlkQ"
+        },
+        {
+          "titulo": "James Brown - Living In America (Rocky IV)",
+          "url": "https://www.youtube.com/watch?v=5NwBucXbRa8"
+        },
+        {
+          "titulo": "Robert Tepper - No Easy Way Out (Rocky IV)",
+          "url": "https://www.youtube.com/watch?v=lAE5ZSnTQfU"
+        },
+        {
+          "titulo": "Go West - One Way Street - ROCKY IV (1985)",
+          "url": "https://www.youtube.com/watch?v=P45EgLgXuMw"
+        },
+        {
+          "titulo": "Touch - The Sweetest Victory - ROCKY IV (1985)",
+          "url": "https://www.youtube.com/watch?v=eKxidxtFKcQ"
+        },
+        {
+          "titulo": "Vince Dicola - Training Montage (Rocky IV)",
+          "url": "https://www.youtube.com/watch?v=1Lb3MTlIrC4"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Rocky V",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Rocky V Soundtrack",
+        "url": "https://www.youtube.com/watch?v=vclPM34W6vs&list=PLw1ogV6odBO9PeMpJ8ugKjWb5hxTS8Lpi&index=2&t=0s"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Rocky V - 01 - Main Titles",
+          "url": "https://www.youtube.com/watch?v=vclPM34W6vs"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Rocky V - 02 - Gone Home",
+          "url": "https://www.youtube.com/watch?v=z7NzLv-SEYo"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Rocky V - 03 - Rocky & Son",
+          "url": "https://www.youtube.com/watch?v=i3jsDyo7eW8"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Rocky V - 04 - Back to the roots",
+          "url": "https://www.youtube.com/watch?v=xIaW9hgYzXs"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Rocky V - 05 - Home Team",
+          "url": "https://www.youtube.com/watch?v=PI-ovaKeP_o"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Rocky V - 06 - Tommy Gunn",
+          "url": "https://www.youtube.com/watch?v=dPLCRG89IaQ"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Rocky V - 07 - Street Fight",
+          "url": "https://www.youtube.com/watch?v=yy449d-o-Oo"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Rocky V - 08 - Touch me and I'll sue / Rocky Main Theme",
+          "url": "https://www.youtube.com/watch?v=zvJY_I1Xlio"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Rocky V - 09 - Rocky Balboa",
+          "url": "https://www.youtube.com/watch?v=mPVDa7EixdY"
+        },
+        {
+          "titulo": "Rocky V - 10 - The Measure of a man (Instrumental)",
+          "url": "https://www.youtube.com/watch?v=YjW1rJ4O7b4"
         }
       ]
     }

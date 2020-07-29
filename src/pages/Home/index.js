@@ -14,7 +14,7 @@ function Home() {
       <BannerMain 
         videoTitle={categorias[0].videos[0].titulo}
         url={categorias[0].videos[0].url}
-        videoDescription={"O que é Front-End?"}
+        videoDescription={"Gonna Fly Now"}
       />
 
       {categorias.map(categoria => (

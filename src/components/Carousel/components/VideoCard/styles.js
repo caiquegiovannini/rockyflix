@@ -29,3 +29,7 @@ export const VideoCardContainer = styled.a`
     margin-left: 20px;
   }
 `;
+
+export const VideoCardTitle = styled.p`
+  width: 298px;
+`;
