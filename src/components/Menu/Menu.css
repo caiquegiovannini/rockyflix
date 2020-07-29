@@ -1,6 +1,6 @@
 .Logo {
-  max-width: 168px;  /* Logo2 */
-  /* max-width: 250px; */  /* Logo3 */
+  /* max-width: 168px; */
+  max-width: 280px;  /* Logo3 */
 }
 @media (max-width: 800px) {
   .Logo {
