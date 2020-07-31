@@ -2,15 +2,371 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Treinos",
-      "descricao": "Uma descrição",
-      "cor": "#ffd700"
+      "titulo": "Treinos",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Cenas dos treinos"
+      }
     },
     {
       "id": 2,
-      "nome": "Rocky I",
-      "descricao": "Outra descrição",
-      "cor": "#ffd700"
+      "titulo": "Rocky I",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Rocky I Soundtrack",
+        "url": "https://www.youtube.com/watch?v=ioE_O7Lm0I4&list=PLDtH8ZVfo60FO1mIf2kAE1Qxi_1kOSrRO&index=1"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Rocky II",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Rocky II Soundtrack",
+        "url": "https://www.youtube.com/watch?v=6-8yN_HUU9Y&list=PLDtH8ZVfo60FO1mIf2kAE1Qxi_1kOSrRO&index=12"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Rocky III",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Rocky III Soundtrack",
+        "url": "https://www.youtube.com/watch?v=_JGx7PYpLWg&list=PLDtH8ZVfo60FO1mIf2kAE1Qxi_1kOSrRO&index=20"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Rocky IV",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Rocky IV Soundtrack",
+        "url": "https://www.youtube.com/watch?v=lYlkYkHkZxs&list=PLDtH8ZVfo60FO1mIf2kAE1Qxi_1kOSrRO&index=29"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Rocky V",
+      "cor": "red",
+      "link_extra": {
+        "text": "Rocky V Soundtrack",
+        "url": "https://www.youtube.com/watch?v=vclPM34W6vs&list=PLw1ogV6odBO9PeMpJ8ugKjWb5hxTS8Lpi&index=2&t=0s"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Rocky I - Training",
+      "url": "https://www.youtube.com/watch?v=DP3MFBzMH2o"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Rocky II - Rocky's Run (1979)",
+      "url": "https://www.youtube.com/watch?v=eMhDQFLwrAA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Rocky 3 - Training Scene",
+      "url": "https://www.youtube.com/watch?v=lVY8SbQGW-Y"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Rocky 4 Training",
+      "url": "https://www.youtube.com/watch?v=CaagSfBj2To"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Rocky 5 Tommy Gunn Training",
+      "url": "https://www.youtube.com/watch?v=ovW3CaNdTDw"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Rocky VI 6 - TRAINING",
+      "url": "https://www.youtube.com/watch?v=_snO6S64pDg"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Bill Conti - Gonna Fly Now (Theme From Rocky)",
+      "url": "https://www.youtube.com/watch?v=ioE_O7Lm0I4"
+    },
+    {
+      "titulo": "Bill Conti - Philadelphia Morning",
+      "url": "https://www.youtube.com/watch?v=siOlyuB4ToQ",
+      "categoriaId": 2,
+      "id": 8
+    },
+    {
+      "titulo": "Bill Conti - Going The Distance (Rocky)",
+      "url": "https://www.youtube.com/watch?v=GvQkl7qa6RQ",
+      "categoriaId": 2,
+      "id": 9
+    },
+    {
+      "titulo": "Frank Stallone - Take You Back (Rocky)",
+      "url": "https://www.youtube.com/watch?v=FENE2XHzlpg",
+      "categoriaId": 2,
+      "id": 10
+    },
+    {
+      "titulo": "Bill Conti - First Date (Rocky)",
+      "url": "https://www.youtube.com/watch?v=B9apYg0pskg",
+      "categoriaId": 2,
+      "id": 11
+    },
+    {
+      "titulo": "Bill Conti - You Take My Heart Away (Rocky)",
+      "url": "https://www.youtube.com/watch?v=-jKTakowgho",
+      "categoriaId": 2,
+      "id": 12
+    },
+    {
+      "titulo": "Bill Conti - Fanfare For Rocky (Rocky)",
+      "url": "https://www.youtube.com/watch?v=hKQioyQDowU",
+      "categoriaId": 2,
+      "id": 13
+    },
+    {
+      "titulo": "Bill Conti - Butkus (Rocky)",
+      "url": "https://www.youtube.com/watch?v=-peHiiIt11k",
+      "categoriaId": 2,
+      "id": 14
+    },
+    {
+      "titulo": "Bill Conti - Alone In The Ring (Rocky)",
+      "url": "https://www.youtube.com/watch?v=6NJ5LW64DWM",
+      "categoriaId": 2,
+      "id": 15
+    },
+    {
+      "titulo": "Bill Conti - The Final Bell (Rocky)",
+      "url": "https://www.youtube.com/watch?v=PvvDj2fnKoQ",
+      "categoriaId": 2,
+      "id": 16
+    },
+    {
+      "titulo": "Bill Conti - Rocky's Reward (Rocky)",
+      "url": "https://www.youtube.com/watch?v=DLtZ5kwhU4k",
+      "categoriaId": 2,
+      "id": 17
+    },
+    {
+      "titulo": "Bill Conti - Redemption (Rocky II)",
+      "url": "https://www.youtube.com/watch?v=6-8yN_HUU9Y",
+      "categoriaId": 3,
+      "id": 18
+    },
+    {
+      "titulo": "Bill Conti - Conquest (Rocky II)",
+      "url": "https://www.youtube.com/watch?v=A7iO_Y1TV6Q",
+      "categoriaId": 3,
+      "id": 19
+    },
+    {
+      "titulo": "Bill Conti - All Of My Life (Instrumental)",
+      "url": "https://www.youtube.com/watch?v=7ATRTdN16js",
+      "categoriaId": 3,
+      "id": 20
+    },
+    {
+      "titulo": "Bill Conti - Vigil (Rocky II)",
+      "url": "https://www.youtube.com/watch?v=C--7WX-9_Xk",
+      "categoriaId": 3,
+      "id": 21
+    },
+    {
+      "titulo": "Rocky Orchestra - Gonna Fly Now",
+      "url": "https://www.youtube.com/watch?v=q2QeYHa3LIk",
+      "categoriaId": 3,
+      "id": 22
+    },
+    {
+      "titulo": "Bill Conti - Overture (Rocky II)",
+      "url": "https://www.youtube.com/watch?v=TkUZwBlaabk",
+      "categoriaId": 3,
+      "id": 23
+    },
+    {
+      "titulo": "Bill Conti - Two Kinds Of Love",
+      "url": "https://www.youtube.com/watch?v=zBKhjR1cw_Y",
+      "categoriaId": 3,
+      "id": 24
+    },
+    {
+      "titulo": "Survivor - Eye Of The Tiger (Rocky III)",
+      "url": "https://www.youtube.com/watch?v=_JGx7PYpLWg",
+      "categoriaId": 4,
+      "id": 25
+    },
+    {
+      "titulo": "Frank Stallone - Take You Back (Tough Gym) - (Rocky III)",
+      "url": "https://www.youtube.com/watch?v=OJ4IcSL340g",
+      "categoriaId": 4,
+      "id": 26
+    },
+    {
+      "titulo": "Frank Stallone - Pushin' (Rocky III)",
+      "url": "https://www.youtube.com/watch?v=n-5aCEteSk4",
+      "categoriaId": 4,
+      "id": 27
+    },
+    {
+      "titulo": "Bill Conti - Mickey (Rocky III)",
+      "url": "https://www.youtube.com/watch?v=_s1XK8r0Q_I",
+      "categoriaId": 4,
+      "id": 28
+    },
+    {
+      "titulo": "Bill Conti - Reflections (Rocky III)",
+      "url": "https://www.youtube.com/watch?v=-icSgN7KTqs",
+      "categoriaId": 4,
+      "id": 29
+    },
+    {
+      "titulo": "Rocky Orchestra - Gonna Fly Now - ROCKY III (1983)",
+      "url": "https://www.youtube.com/watch?v=--wH_Kq8tWM",
+      "categoriaId": 4,
+      "id": 30
+    },
+    {
+      "titulo": "Bill Conti - Adrian (Rocky III)",
+      "url": "https://www.youtube.com/watch?v=CbBnc4NE8sM",
+      "categoriaId": 4,
+      "id": 31
+    },
+    {
+      "titulo": "Bill Conti - Conquest - ROCKY III (1983)",
+      "url": "https://www.youtube.com/watch?v=kW_9cZUy3Ok",
+      "categoriaId": 4,
+      "id": 32
+    },
+    {
+      "titulo": "Survivor - Burning Heart (Rocky IV)",
+      "url": "https://www.youtube.com/watch?v=lYlkYkHkZxs",
+      "categoriaId": 5,
+      "id": 33
+    },
+    {
+      "titulo": "John Cafferty - Hearts On Fire (Rocky IV)",
+      "url": "https://www.youtube.com/watch?v=swo51-CG9Ss",
+      "categoriaId": 5,
+      "id": 34
+    },
+    {
+      "titulo": "Kenny Loggins, Gladys Knight - Double Or Nothing - ROCKY IV (1985)",
+      "url": "https://www.youtube.com/watch?v=W2hgP1TqgEk",
+      "categoriaId": 5,
+      "id": 35
+    },
+    {
+      "titulo": "Survivor - Eye Of The Tiger (Rocky IV)",
+      "url": "https://www.youtube.com/watch?v=_fQb2TmRd2Q",
+      "categoriaId": 5,
+      "id": 36
+    },
+    {
+      "titulo": "Vince DiCola - War (Rocky IV)",
+      "url": "https://www.youtube.com/watch?v=ingPbmcNlkQ",
+      "categoriaId": 5,
+      "id": 37
+    },
+    {
+      "titulo": "James Brown - Living In America (Rocky IV)",
+      "url": "https://www.youtube.com/watch?v=5NwBucXbRa8",
+      "categoriaId": 5,
+      "id": 38
+    },
+    {
+      "titulo": "Robert Tepper - No Easy Way Out (Rocky IV)",
+      "url": "https://www.youtube.com/watch?v=lAE5ZSnTQfU",
+      "categoriaId": 5,
+      "id": 39
+    },
+    {
+      "titulo": "Go West - One Way Street - ROCKY IV (1985)",
+      "url": "https://www.youtube.com/watch?v=P45EgLgXuMw",
+      "categoriaId": 5,
+      "id": 40
+    },
+    {
+      "titulo": "Touch - The Sweetest Victory - ROCKY IV (1985)",
+      "url": "https://www.youtube.com/watch?v=eKxidxtFKcQ",
+      "categoriaId": 5,
+      "id": 41
+    },
+    {
+      "titulo": "Vince Dicola - Training Montage (Rocky IV)",
+      "url": "https://www.youtube.com/watch?v=1Lb3MTlIrC4",
+      "categoriaId": 5,
+      "id": 42
+    },
+    {
+      "titulo": "Rocky V - 01 - Main Titles",
+      "url": "https://www.youtube.com/watch?v=vclPM34W6vs",
+      "categoriaId": 6,
+      "id": 43
+    },
+    {
+      "titulo": "Rocky V - 02 - Gone Home",
+      "url": "https://www.youtube.com/watch?v=z7NzLv-SEYo",
+      "categoriaId": 6,
+      "id": 44
+    },
+    {
+      "titulo": "Rocky V - 03 - Rocky & Son",
+      "url": "https://www.youtube.com/watch?v=i3jsDyo7eW8",
+      "categoriaId": 6,
+      "id": 45
+    },
+    {
+      "titulo": "Rocky V - 04 - Back to the roots",
+      "url": "https://www.youtube.com/watch?v=xIaW9hgYzXs",
+      "categoriaId":6 ,
+      "id": 46
+    },
+    {
+      "titulo": "Rocky V - 05 - Home Team",
+      "url": "https://www.youtube.com/watch?v=PI-ovaKeP_o",
+      "categoriaId": 6,
+      "id": 47
+    },
+    {
+      "titulo": "Rocky V - 06 - Tommy Gunn",
+      "url": "https://www.youtube.com/watch?v=dPLCRG89IaQ",
+      "categoriaId": 6,
+      "id": 48
+    },
+    {
+      "titulo": "Rocky V - 07 - Street Fight",
+      "url": "https://www.youtube.com/watch?v=yy449d-o-Oo",
+      "categoriaId": 6,
+      "id": 49
+    },
+    {
+      "titulo": "Rocky V - 08 - Touch me and I'll sue / Rocky Main Theme",
+      "url": "https://www.youtube.com/watch?v=zvJY_I1Xlio",
+      "categoriaId": 6,
+      "id": 50
+    },
+    {
+      "titulo": "Rocky V - 09 - Rocky Balboa",
+      "url": "https://www.youtube.com/watch?v=mPVDa7EixdY",
+      "categoriaId": 6,
+      "id": 51
+    },
+    {
+      "titulo": "Rocky V - 10 - The Measure of a man (Instrumental)",
+      "url": "https://www.youtube.com/watch?v=YjW1rJ4O7b4",
+      "categoriaId": 6,
+      "id": 52
     }
   ]
 }

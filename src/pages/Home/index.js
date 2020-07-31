@@ -1,29 +1,51 @@
-import React from 'react';
-import { categorias } from '../../data/dados_iniciais.json';
+import React, { useEffect, useState } from 'react';
+import categoriasRepository from '../../repositories/categorias';
 
-import Menu from '../../components/Menu';
+import PageDefault from '../../components/PageDefault';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        setDadosIniciais(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.error(err); // criar alerta de erro para usuário
+      });
+  }, []);
+
   return (
-    <div style={{ background: "#141414" }}>
-      <Menu />
+    <PageDefault paddingAll={0}>
 
-      <BannerMain 
-        videoTitle={categorias[0].videos[0].titulo}
-        url={categorias[0].videos[0].url}
-        videoDescription={"Gonna Fly Now"}
-      />
+      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 
-      {categorias.map(categoria => (
-        <Carousel key={`${categoria.titulo}-${categoria.index}`} category={categoria} />
-      ))}
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[0].videos[0].titulo}
+                url={dadosIniciais[0].videos[0].url}
+                videoDescription="Gonna Fly Now"
+              />
+              <Carousel category={dadosIniciais[0]} />
+            </div>
+          );
+        }
 
-      <Footer />
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
 
-    </div>
+    </PageDefault>
   );
 }
 
